@@ -1,0 +1,22 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.662338056475E+15,"dur": 27195000, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.662338056547E+15,"dur": 1205000, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.662338059765E+15,"dur": 22929000, "ph":"X", "name": "Prepare For Build"},
+{ "pid": "Unity", "tid": 1,"ts": 1.662338082694E+15,"dur": 918000, "ph":"X", "name": "ProducePlayerScriptAssemblies"},
+{ "pid": "Unity", "tid": 1,"ts": 1.662338083542E+15,"dur": 70000, "ph":"X", "name": "Prebuild Cleanup and Recompile"},
+{}
+
+],
+"meta_datetime": "09/04/2022 17:34:43",
+"meta_command_line": "/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity -createproject /Users/yukta/Prrototype -cloneFromTemplate /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/ProjectTemplates/com.unity.template.3d-8.1.0.tgz -cloudOrganization  -cloudEnvironment production -useHub -hubIPC -hubSessionId 083392d0-2caf-11ed-b73d-5de9b6128db6 -accessToken 3Fh7Ur62uKEJIdUsJkuX-GbApXoYWG6KbZJV1Dnfer4001f -projectpath /Users/yukta/My project -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-yukta -hubSessionId 083392d0-2caf-11ed-b73d-5de9b6128db6 -accessToken 3Fh7Ur62uKEJIdUsJkuX-GbApXoYWG6KbZJV1Dnfer4001f",
+"meta_command_line_args": "/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity -createproject /Users/yukta/Prrototype -cloneFromTemplate /Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/ProjectTemplates/com.unity.template.3d-8.1.0.tgz -cloudOrganization  -cloudEnvironment production -useHub -hubIPC -hubSessionId 083392d0-2caf-11ed-b73d-5de9b6128db6 -accessToken 3Fh7Ur62uKEJIdUsJkuX-GbApXoYWG6KbZJV1Dnfer4001f -projectpath /Users/yukta/My project -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-yukta -hubSessionId 083392d0-2caf-11ed-b73d-5de9b6128db6 -accessToken 3Fh7Ur62uKEJIdUsJkuX-GbApXoYWG6KbZJV1Dnfer4001f",
+"meta_user_name": "yukta",
+"meta_os_version": "Unix 21.6.0.0",
+"meta_cpu_count": "8"
+}
